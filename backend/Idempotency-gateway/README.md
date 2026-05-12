@@ -38,7 +38,7 @@ Client sends request
 
 Clone the repository:
 
-git clone https://github.com/Esther447/AmaliTech-DEG-Project-based-challenges.git
+git clone https://github.com/Esther447/AmaliTech-DEG-Project-based-challenges.git    backend/Idempotency-gateway/idempotency-api
 
 Navigate to the project folder:
 
