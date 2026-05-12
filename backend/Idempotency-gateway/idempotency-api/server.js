@@ -62,7 +62,7 @@ app.post("/process-payment", async (req, res) => {
 
         const response = { message: `Charged ${body.amount} ${body.currency}` };
 
-        store[key] = { status: "completed", body, response, statusCode: 200 };
+        store[key] = { status: "completed", body, response, statusCode: 201 };
         console.log("Store AFTER:", store);
 
         return res.status(201).json(response);
